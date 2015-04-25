@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" media="screen" type="text/css" href="styles.css" />
+<title>The Daily Buff</title>
+
+
+</head>
+
+<body>
+<div id="body">
+        <div id="tm">
+                <div class="content">
+
+<!--- Top Menu ---->
+          <ul>
+                        <li><a class="btnDB" href="https://dailybuff.com" title="The Daily Buff">The Daily Buff</a></li>
+                        <li><a class="btnST" href="http://twitch.tv/th3gr33k" title="Live Stream">Live Stream</a></li>
+                        <li><a class="btnDIY" href="https://dailybuff.com" title="The Daily Buff">DIY</a></li>
+            <li><a class="btnSS" href="https://dailybuff.com" title="The Daily Buff">Screenshots</a></li>
+                <li><a class="btnCT" href="https://dailybuff.com" title="The Daily Buff">Contact</a></li>
+                <li><a class="btnAB" href="https://dailybuff.com" title="The Daily Buff">About</a></li>
+                </ul>
+         </div> <!--Content-->
+    </div><!--tm-->
+
+<!--- Social Buttons ---->
+          <ul class="social">
+                        <li><a class="btn btnFb" href="http://www.facebook.com/pages/dailybuff" title="The Daily Buff on Facebook">The Daily Buff on Facebook</a></li>
+                        <li><a class="btn btnTwt" href="http://twitter.com/dailybuff" title="Follow The Daily Buff on Twitter">Follow The Daily Buff on Twitter</a></li>
+            <li><a class="btn btnTwitch" href="http://twitch.tv/th3gr33k" title="Follow The Daily Buff on Twitch">Follow The Daily Buff on Twitch</a></li>
+                        </ul>
+            <hr />
+
+<!------ TOP LOGO  ------>
+  <div id="container">
+                <div id="header">
+    <h1><a class="btn" href="https://dailybuff.com" title="The Daily Buff">The Daily Buff</a></h1>
+                </div>
+   </div>
+
+<!------- Buff Posts ------>
+                <hr />
+<div id="leftCol" class="orange">
+        <h4 class="title txtEditorial">The Buff</h4>
+        <ul class="editorial">
+
+<li class="left">
+        <div class="img">
+                <a class="img" href="/buffposts/halo4.html"><img src="https://dailybuff.com/buffimg/testimage.jpg" /></a>
+                        </div>
+<h2><a href="/buffposts/halo4.html" title="Test Post 1">Test Post 1</a></h2>
+                        <p class="meta"><a href="/report/about/#bkuchera" title="Th3Gre3k">Th3Gre3k</a> <strong>/</strong>Nov 12, 2012</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco... <a class="more" href="/buffposts/halo4.html" title="Read More">Read More</a></p>
+                </li>
+
+
+                <li class="right">
+                                        <div class="img">
+                <a class="img" href="/buffposts/halo4.html"><img src="https://dailybuff.com/buffimg/testimage.jpg" /></a>
+                        </div>
+                        <h2><a href="/buffposts/halo4.html" title="Test Post 2">Test Post 2</a></h2>
+                        <p class="meta"><a href="/buffposts/halo4.html" title="Th3Gre3k">Th3Gre3k</a> <strong>/</strong>Nov 12, 2012</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco... <a class="more" href="/buffposts/halo4.html" title="Read More">Read More</a></p>
+                </li>
+
+<li class="left">
+        <div class="img">
+                <a class="img" href="/buffposts/halo4.html"><img src="https://dailybuff.com/buffimg/testimage.jpg" /></a>
+                        </div>
+<h2><a href="/buffposts/halo4.html" title="Test Post 1">Test Post 1</a></h2>
+                        <p class="meta"><a href="/report/about/#bkuchera" title="Th3Gre3k">Th3Gre3k</a> <strong>/</strong>Nov 12, 2012</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco... <a class="more" href="/buffposts/halo4.html" title="Read More">Read More</a></p>
+                </li>
+
+
+                <li class="right">
+                                        <div class="img">
+                <a class="img" href="/buffposts/halo4.html"><img src="https://dailybuff.com/buffimg/testimage.jpg" /></a>
+                        </div>
+                        <h2><a href="/buffposts/halo4.html" title="Test Post 2">Test Post 2</a></h2>
+                        <p class="meta"><a href="/buffposts/halo4.html" title="Th3Gre3k">Th3Gre3k</a> <strong>/</strong>Nov 12, 2012</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco... <a class="more" href="/buffposts/halo4.html" title="Read More">Read More</a></p>
+                </li>
+        </ul>
+</div>
+
+<div id="rightCol">
+<!----- Videos Section ------>
+<!----
+<hr />
+
+        <div id="twitch">
+<object type="application/x-shockwave-flash" height="189" width="310" id="live_embed_player_flash" data="http://www.twitch.tv/widgets/live_embed_player.swf?channel=th3gr33k" bgcolor="#000000"><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="allowNetworking" value="all" /><param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf" /><param name="flashvars" value="hostname=www.twitch.tv&channel=th3gr33k&auto_play=true&start_volume=25" /></object><a href="http://www.twitch.tv/th3gr33k" class="trk" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline; text-align:center;">Watch live video from th3gr33k on www.twitch.tv</a>
+</div>
+---->
+
+<!------- Add Space ------>
+<hr />
+<!---
+        <div id="squareAd">
+                <h6 class="txt txtAd">Advertisement</h6>
+                <div id='div-gpt-ad-1328746883778-0' style='width:300px; height:250px;'>
+                <script type='text/javascript'>
+                googletag.cmd.push(function() {googletag.display('div-gpt-ad-1328746883778-0');});
+                </script>
+                </div>
+        </div>
+        ----->
+
+
+<!----  About Snapshot ------>
+        <div class="about red">
+        <h3 class="txt txtAboutDB">About The Daily Buff</h3>
+        <div class="info">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco...</p>
+                <a href="/report/about" class="more" title="Learn More">Learn More</a>
+        </div>
+</div>
+
+<!--- Author Snapshot ---->
+        <div class="about red">
+        <div class="profile">
+                <h3 class="txt txtTh3Gre3k">Th3Gre3k</h3>
+                <img src="https://dailybuff.com/buffimg/test2.jpg" alt="Th3Gre3k" />
+        </div>
+        <div class="info">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco...</p>
+                <a href="/report/about#bkuchera" class="more" title="Learn More">Learn More</a>
+        </div>
+</div>
+
+
+<!---- Contact Snapshot ---->
+        <hr />
+<div id="tips" class="yellow">
+        <h3 class="txt txtContact">Drop Us a Line</h3>
+        <div class="info">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco...</p>
+                <a href="/report/tips" class="more" title="Send a Tip">Drop A Line</a>
+        </div>
+</div>
+
+
+</div>
+
+<!--- FOOTER ---->
+<!---
+                <hr />
+                <div id="footer">
+        <div class="news orange">
+                <h4><a class="txt txtPA" href="http://penny-arcade.com" title="Penny Arcade">Penny Arcade</a></h4>
+                <ul>
+                        <li><a href='http://penny-arcade.com/comic/2013/01/30/peekin' title=''><strong>Latest Comic</strong> - Peekin'</a></li><li><a href='http://penny-arcade.com/2013/01/30/my-ama' title=''><strong>Latest News</strong> - My AMA</a></li><li><a href='http://penny-arcade.com/patv/episode/the-beast-macabre' title=''><strong>Latest PATV</strong> - The Beast Macabre</a></li>
+                </ul>
+        </div>
+        <div class="news red">
+                <h4><a class="txt txtTrenches" href="http://trenchescomic.com" title="The Trenches">The Trenches</a></h4>
+                <ul>
+                        <li><a href='http://trenchescomic.com/comic/post/logorrhea' title=''><strong>Latest Comic</strong> - Logorrhea</a></li><li><a href='http://trenchescomic.com/tales/post/climbing-that-ladder-right-off-the-edge' title=''><strong>Latest Tale</strong> - Climbing that ladder right off the edge...</a></li>
+                </ul>
+        </div>
+        <div class="news blue">
+                <h4><a class="txt txtPAX" href="http://paxsite.com" title="PAX">PAX</a></h4>
+                <ul>
+                        <li><a href='http://east.paxsite.com/registration' title=''><strong>News</strong> - Register for PAX East!</a></li><li><a href='http://aus.paxsite.com/registration' title=''><strong>News</strong> - Register for PAX Australia!</a></li>
+                </ul>
+        </div>
+        <div class="news green">
+                <h4><a class="txt txtCP" href="http://childsplaycharity.org" title="Child's Play">Child's Play</a></h4>
+                <ul>
+                        <li><a href='http://childsplaycharity.org' title=''><strong>Current Total</strong> - $5,085,760</a></li><li><a href='http://childsplaycharity.org/news/post/childsplay2012' title=''><strong>Latest News</strong> - 2012.</a></li><li><a href='http://childsplaycharity.org/news/post/4-days-to-go-4.1-million-raised-in-2012' title=''><strong>Latest News</strong> - 4 days to go, $4.1 million raised in 2012!</a></li>
+                </ul>
+        </div>
+        ---->
+        <hr />
+        <div id="copyright">
+                <ul>
+                        <li><a href="https://dailybuff.com" title="Daily Buff">Daily Buff</a> <strong>/</strong></li>
+                        <li><a href="http://twitch.tv/th3gr33k" title="Live Stream">Live Stream</a> <strong>/</strong></li>
+                        <li><a href="https://dailybuff.com/diy" title="DIY">DIY</a> <strong>/</strong></li>
+                        <li><a href="https://dailybuff.com/screenshots" title="Screenshots">Screenshots</a> <strong>/</strong></li>
+                        <li><a href="https://dailybuff.com/contact" title="Contact">Contact</a> <strong>/</strong></li>
+                        </ul>
+                <p>&copy; Copyright 2013 <a href="https://dailybuff.com" title="The Daily Buff">The Daily Buff</a>.</p>
+        </div>
+</div>
+        </div>
+
+
+</div>
+</body>
+</html>
