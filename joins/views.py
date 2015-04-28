@@ -1,4 +1,4 @@
-from django.shortcuts import render, HttpResponseRedirect
+from django.shortcuts import render, HttpResponseRedirect, Http404
 from .forms import JoinForm
 
 
@@ -27,14 +27,14 @@ def get_ref_id():
 		get_ref_id()
 	except:
 		return ref_id	
-	return ref_id 
+	 
 
 def home(request):
 	try:
 		join_id = request.session['join_id_ref']
-		obj = Join.objects.get(id=refer_id)
+		obj = Join.objects.get(id=join_id)
 	except:
-		refer_id = None
+		obj = None
 
 	form = JoinForm(request.POST or None)
 	if form.is_valid():
@@ -44,8 +44,17 @@ def home(request):
 		new_join_old, created = Join.objects.get_or_create(email=email)
 		if created:
 			new_join_old.ref_id = get_ref_id()
+			if not obj == None:
+				new_join_old.friend = obj
 			new_join_old.ip_address = get_ip(request)
 			new_join_old.save()
+
+		# Print friends that joined as a result of main sharer email
+		#print Join.objects.filter(friend=obj).count()
+		#print obj.referall.all().count()
+
+
+
 		return HttpResponseRedirect("/%s" %(new_join_old.ref_id))
 
 	context = {"form": form}
@@ -53,7 +62,14 @@ def home(request):
 	return render(request, 'homepage/home.html', context)
 
 def share(request, ref_id):
-	#print ref_id
-	context={"ref_id": ref_id}
-	template = "share.html"
-	return render(request, template, context)
+	try:
+		join_obj = Join.objects.get(ref_id=ref_id)
+		friends_referred = Join.objects.filter(friend=join_obj)
+		count = join_obj.referral.all().count()
+		ref_url = "http://dev.kcoa.net/?ref=%s" %(join_obj.ref_id)
+		#print ref_id
+		context={"ref_id": join_obj.ref_id, "count": count, "ref_url": ref_url}
+		template = "share.html"
+		return render(request, template, context)
+	except:
+		raise Http404

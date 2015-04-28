@@ -1,11 +1,133 @@
 {% extends "base.html" %}
-
+{% load staticfiles %}
 
 {% block content %}
+<nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand">Project name</a>
+        </div>
+      </div>
+    </nav>
 
+
+          <div class="jumbotron">
+            <div class="container">
+            	<div class="row">
+              <div class="col-sm-6" style='text-align:center;'>
+              	<i class="fa fa-share-alt fa-5x"></i>
+            <h1>Invite Friends &amp; Earn Rewards</h1>
+            <p>Share your link below!</p>
+            <div class='well' style='background-color: white;'>{{ ref_url }}</div>
+            Share<br/>
+            <i class="fa fa-facebook-square fa-4x" style="color:#3b5998"></i>
+            <i class="fa fa-twitter-square fa-4x" style="color:#4099FF"></i>
+            <i class="fa fa-linkedin-square fa-4x" style="color:#007bb6"></i>
+            <i class="fa fa-reddit-square fa-4x" style="color:#900020"></i>
+            <i class="fa fa-google-plus-square fa-4x" style="color:#D34836"></i>
+            
+            </div>
+            <div class='col-sm-6'>
+              <img src="{% static 'img/beach.jpg' %}" class ='img-responsive' />
+            </div>
+          </div>
+
+
+<div class='container' style='text-align:center'>
+</hr>
 <h1>Hello World</h1>
 
-{{ ref_id }}
+
+
+{{ ref_id }}</br>
+{{ count }}</br>
+<br/>
+<div class='well'>
+{{ ref_url }}</div>
+
+<div class="row">
+	<div class="col-sm-3">
+	<h3> 5 Joined </h3>
+		<div class="progress">
+			  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+			    60%
+			  </div>
+		</div>
+		<h4>Bronze Tier</h4>
+		<!-- Add Image or paragraph here -->
+		<hr />
+			<span style='text-align:left !important;'>
+				<h5>Rewards Include:</h5>
+					<ul>
+						<li>Reward 1</li>
+						<li>Reward 2</li>
+						<li>Reward 3</li>
+					</ul>
+			</span>
+		<hr/>
+
+	</div>
+	<div class="col-sm-3">
+	<h3> 10 Joined </h3>
+		<div class="progress">
+			  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+			    60%
+			  </div>
+		</div>
+				<h4>Silver Tier</h4>
+		<!-- Add Image or paragraph here -->
+		<hr />
+			<span style='text-align:left !important;'>
+				<h5>Rewards Include:</h5>
+					<ul>
+						<li>Reward 1</li>
+						<li>Reward 2</li>
+						<li>Reward 3</li>
+					</ul>
+			</span>
+		<hr/>
+	</div>
+	<div class="col-sm-3">
+	<h3> 15 Joined </h3>
+		<div class="progress">
+			  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+			    60%
+			  </div>
+		</div>
+				<h4>Gold Tier</h4>
+		<!-- Add Image or paragraph here -->
+		<hr />
+			<span style='text-align:left !important;'>
+				<h5>Rewards Include:</h5>
+					<ul>
+						<li>Reward 1</li>
+						<li>Reward 2</li>
+						<li>Reward 3</li>
+					</ul>
+			</span>
+		<hr/>
+	</div>
+	<div class="col-sm-3">
+	<h3> 20 Joined </h3>
+		<div class="progress">
+			  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+			    60%
+			  </div>
+		</div>
+	</div>
+			<h4>Platinum Tier</h4>
+		<!-- Add Image or paragraph here -->
+		<hr />
+			<span style='text-align:left !important;'>
+				<h5>Rewards Include:</h5>
+					<ul>
+						<li>Reward 1</li>
+						<li>Reward 2</li>
+						<li>Reward 3</li>
+					</ul>
+			</span>
+		<hr/>
+</div>	
 
 
 
