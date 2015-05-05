@@ -105,7 +105,8 @@ from django.shortcuts import render
 
 # Create your views here.
 
-PROJECT_DIR = 'F:\dailybuff test\django\Django_test_app'
+#PROJECT_DIR = 'F:\dailybuff test\django\Django_test_app'
+PROJECT_DIR = '/home/dev/public_html/devjango/kcoa/'
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(PROJECT_DIR, 'static/static_root/')
 MEDIA_ROOT = os.path.join(PROJECT_DIR, 'static/media/')
