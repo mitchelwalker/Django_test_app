@@ -1,6 +1,12 @@
 {% extends "base.html" %}
 {% load staticfiles %}
 
+
+{% block jquery %}
+
+{% endblock %}
+
+
 {% block content %}
 <nav class="navbar navbar-inverse">
       <div class="container">
@@ -28,7 +34,7 @@
             
             </div>
             <div class='col-sm-6'>
-              <img src="{% static  'static_root/img/beach.jpg'%}" class ='img-responsive' />
+              <img src="{% static  'img/beach.jpg'%}" class ='img-responsive' />
             </div>
           </div>
 

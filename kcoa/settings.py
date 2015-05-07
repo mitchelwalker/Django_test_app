@@ -49,8 +49,8 @@ MIDDLEWARE_CLASSES = [
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'django.middleware.security.SecurityMiddleware',
     'kcoa.middleware.ReferMiddleware',
+    
 ]
 
 ROOT_URLCONF = 'kcoa.urls'
@@ -106,8 +106,9 @@ from django.shortcuts import render
 # Create your views here.
 
 #PROJECT_DIR = 'F:\dailybuff test\django\Django_test_app'
-PROJECT_DIR = '/home/dev/public_html/devjango/kcoa/'
-STATIC_URL = '/static/'
+#PROJECT_DIR = '/home/dev/public_html/devjango/kcoa/'
+PROJECT_DIR = os.path.dirname(os.path.realpath('manage.py'))
+STATIC_URL = '/static/static_root/'
 STATIC_ROOT = os.path.join(PROJECT_DIR, 'static/static_root/')
 MEDIA_ROOT = os.path.join(PROJECT_DIR, 'static/media/')
 MEDIA_URL = "/media/"
