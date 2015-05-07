@@ -105,9 +105,18 @@ from django.shortcuts import render
 
 # Create your views here.
 
+def find_project_dir(): 
+    for root, dirs, file in os.walk('/home'):
+        for name in file:
+            if name == 'manage.py':
+                return os.path.abspath(os.path.join(root))
+
+
+
 #PROJECT_DIR = 'F:\dailybuff test\django\Django_test_app'
 #PROJECT_DIR = '/home/dev/public_html/devjango/kcoa/'
-PROJECT_DIR = os.path.dirname(os.path.realpath('manage.py'))
+#PROJECT_DIR = os.path.dirname(os.path.realpath('manage.py'))
+PROJECT_DIR = str(find_project_dir())
 STATIC_URL = '/static/static_root/'
 STATIC_ROOT = os.path.join(PROJECT_DIR, 'static/static_root/')
 MEDIA_ROOT = os.path.join(PROJECT_DIR, 'static/media/')
@@ -116,4 +125,3 @@ STATICFILES_DIRS = (
     os.path.join(PROJECT_DIR, "static/static_dirs"),
 
 )
-
