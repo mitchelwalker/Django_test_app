@@ -9,6 +9,7 @@ urlpatterns = [
 
     
     url(r'^$', 'joins.views.home', name ='home'),
-     url(r'^testhome$', 'kcoa.views.testhome', name ='testhome'),
+    url(r'^testhome$', 'kcoa.views.testhome', name ='testhome'),
+    url(r'^products', 'products.views.ehome', name = 'ehome'),
     url(r'^(?P<ref_id>.*)$', 'joins.views.share', name ='share'),
 ]

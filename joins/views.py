@@ -59,7 +59,7 @@ def home(request):
 
 	context = {"form": form}
 	template = "home.html"
-	return render(request, 'homepage/home.html', context)
+	return render(request, 'home.html', context)
 
 def share(request, ref_id):
 	try:

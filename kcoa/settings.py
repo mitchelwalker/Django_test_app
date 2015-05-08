@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'homepage',
     'joins',
+    'products',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -125,3 +126,4 @@ STATICFILES_DIRS = (
     os.path.join(PROJECT_DIR, "static/static_dirs"),
 
 )
+TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'templates')),
